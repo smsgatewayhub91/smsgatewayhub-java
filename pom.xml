@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.smsgatewayhub</groupId>
+  <artifactId>smsgatewayhub</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>SMSGatewayHub Java SDK</name>
+  <description>Official SMSGatewayHub SDK for Java: classic SMS API, CPaaS messages with fallback, OneTap Verify and Email Verification. Zero dependencies.</description>
+  <url>https://www.smsgatewayhub.com/sdks</url>
+
+  <scm>
+    <url>https://github.com/smsgatewayhub91/smsgatewayhub-java</url>
+    <connection>scm:git:https://github.com/smsgatewayhub91/smsgatewayhub-java.git</connection>
+  </scm>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>SMS Gateway Hub</name>
+      <email>support@smsgatewayhub.com</email>
+      <organization>SMSGatewayHub</organization>
+      <organizationUrl>https://www.smsgatewayhub.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <!-- No dependencies: standard library only. -->
+</project>
